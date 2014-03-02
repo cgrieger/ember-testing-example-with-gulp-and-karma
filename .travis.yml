@@ -1,5 +1,11 @@
 language: node_js
 node_js:
   - 0.10
-after_install:
+install:
   - "./node_modules/.bin/bower install"
+before_script:
+  - "./node_modules/.bin/gulp build"
+script:
+  - "./node_modules/.bin/karma start karma.conf.js"
+  - "./node_modules/.bin/karma start karma.integration.conf.js"
+

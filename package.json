@@ -3,9 +3,6 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "./node_modules/.bin/karma start --single-run karma.conf.js"
-  },
   "author": "",
   "license": "BSD-2-Clause",
   "devDependencies": {

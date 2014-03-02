@@ -39,6 +39,6 @@ gulp.task('livereload', function () {
   });
 });
 
-gulp.task('dev', ['compile-templates', 'watch-templates', 'watch-sources', 'livereload'])
-
+gulp.task('dev', ['compile-templates', 'watch-templates', 'watch-sources', 'livereload']);
+gulp.task('build', ['compile-templates']);
 
